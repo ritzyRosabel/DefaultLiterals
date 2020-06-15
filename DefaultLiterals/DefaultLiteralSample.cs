@@ -18,5 +18,12 @@ namespace DefaultLiterals
         {
             return default(int);
         }
+        // C#7.1
+        public static bool NewStyle()
+        {
+            int x = default;
+            object y = default;
+            return x.Equals(y);
+        }
     }
 }
