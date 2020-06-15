@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace DefaultLiterals
 {
-    class Program
+    public class DefaultLiteralSample
     {
-        static void Main(string[] args)
+        public static bool OldStyle()
         {
-            //old way  of writing default literals
-
-
+            return true;
         }
     }
 }
