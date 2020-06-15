@@ -29,6 +29,9 @@ namespace DefaultLiterals
         {
             return default;
         }
-      
+        public static T NewMethodWithArgs<T>(int a = default, object b = default)
+        {
+            return default;
+        }
     }
 }
