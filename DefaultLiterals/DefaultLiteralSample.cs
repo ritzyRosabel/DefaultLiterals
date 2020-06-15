@@ -14,5 +14,9 @@ namespace DefaultLiterals
             var y = default(object);
             return x.Equals(y);
         }
+        public static int OldMethodWithArgs(int a = default(int), object b = default(object))
+        {
+            return default(int);
+        }
     }
 }
