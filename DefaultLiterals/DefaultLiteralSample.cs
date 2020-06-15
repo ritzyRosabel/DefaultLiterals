@@ -10,7 +10,9 @@ namespace DefaultLiterals
     {
         public static bool OldStyle()
         {
-            return true;
+            var x = default(int);
+            var y = default(object);
+            return x.Equals(y);
         }
     }
 }
