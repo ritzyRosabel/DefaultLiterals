@@ -25,5 +25,10 @@ namespace DefaultLiterals
             object y = default;
             return x.Equals(y);
         }
+        public static int NewMethodWithArgs(int a = default, object b = default)
+        {
+            return default;
+        }
+      
     }
 }
