@@ -8,6 +8,7 @@ namespace DefaultLiterals
 {
     class Program
     {
+        //If this code works, then it was writen by Rosabel Olugbenga. If it doesn't, then i can only say one thing  "IT IS WHAT IT IS".
         static void Main(string[] args)
         {
             //old way  of writing default literals
